@@ -1,0 +1,14 @@
+.Herobanner{
+    background-image: url(../../images/vecorbg1.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 300px;;
+
+}
+
+.text-theme{
+    color: #00abe4;
+}
+.text-theme-dark{
+    color:  #0093c4;
+}

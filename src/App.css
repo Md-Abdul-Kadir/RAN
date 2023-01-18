@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Roboto&display=swap');
+
 .App {
-  text-align: center;
+  
+  font-family: 'Pinyon Script', cursive;
+  font-family: 'Roboto', sans-serif;
 }
 
 .App-logo {

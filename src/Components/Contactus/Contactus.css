@@ -1,0 +1,26 @@
+
+.big-txt{
+    padding-top:5%;
+    color:azure;
+    font-size:50px;
+}
+.bg-theme-contact{
+    background-color: #0093c4;
+}
+.bb{
+    border-bottom: solid 1px white;
+}
+.bg-offwhite{
+    background-color:rgb(236, 234, 234);
+}
+.bbb{
+    border-bottom: solid 1px #0093c4;;
+    
+}
+.mapview{
+    height:100%;
+   width: 100%;
+}
+.spanRed{
+    color:rgb(240, 0, 0);
+}

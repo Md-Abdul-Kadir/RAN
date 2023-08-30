@@ -1,11 +1,24 @@
-.bg-theme{
-    background-color:#00bfff;
-    color:rgb(255, 255, 255) !important;
-    height: 120px;
+.bg-theme {
+  background-color: #df2f36 !important;
 }
-.brand-name{
-    font-family: sans-serif;
-    font-style:normal;
-    font-weight: 300;
-    font-size: 40px;
-}   
+.bg-nav {
+  height: 120px;
+  background-color: #fff;
+}
+
+.brand-name {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+}
+.text-theme {
+  color: #df2f36 !important;
+}
+.btn-outline-theme {
+  border: #df2f36 solid 1px !important;
+  border-radius: 5%;
+}
+.img-displaced {
+  transform: scale(1.5) !important;
+}

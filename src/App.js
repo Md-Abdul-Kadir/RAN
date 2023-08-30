@@ -4,11 +4,12 @@ import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import Contactus from './Components/Contactus/Contactus';
 import Navigation from './Components/Navigation/Navigation';
-import Login from './Components/Login/Login';
 import Whatwedo from './Components/Whatwedo/Whatwedo';
-import Signup from './Components/Signup/Signup';
 import Howweworks from './Components/Howweworks/Howweworks';
 import Whoweare from './Components/Whoweare/Whoweare';
+import Login from './Components/Login/Login/Login';
+import Register from './Components/Login/Resigter/Register';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -24,10 +25,10 @@ function App() {
         <Route path="/aboutran" element={<About></About>} />
         <Route path="/contactus" element={<Contactus></Contactus>}/>
         <Route path="/login" element={<Login></Login>} />
-        <Route path="/signup" element={<Signup></Signup>} />
+        <Route path="/signup" element={<Register></Register>} />
       </Routes>
       </BrowserRouter>
-
+     <Footer></Footer>
     </div>
   );
 }

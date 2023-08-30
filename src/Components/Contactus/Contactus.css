@@ -1,26 +1,31 @@
-
-.big-txt{
-    padding-top:5%;
-    color:azure;
-    font-size:50px;
+.big-txt {
+  padding-top: 5%;
+  color: azure;
+  font-size: 50px;
 }
-.bg-theme-contact{
-    background-color: #0093c4;
+.bg-theme {
+  background-color: #df2f36;
 }
-.bb{
-    border-bottom: solid 1px white;
+.bg-theme-dark {
+  background-color: #a50005e0;
 }
-.bg-offwhite{
-    background-color:rgb(236, 234, 234);
+.bb {
+  border-bottom: solid 1px white;
 }
-.bbb{
-    border-bottom: solid 1px #0093c4;;
-    
+.bg-offwhite {
+  background-color: rgb(236, 234, 234);
 }
-.mapview{
-    height:100%;
-   width: 100%;
+.bbb {
+  border-bottom: solid 1px #0093c4;
 }
-.spanRed{
-    color:rgb(240, 0, 0);
+.mapview {
+  height: 100%;
+  width: 100%;
+}
+.spanRed {
+  color: rgb(240, 0, 0);
+}
+.bg-banner {
+  background-image: linear-gradient(to right, #200122, #df2f36);
+  height: 250px;
 }

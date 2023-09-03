@@ -1,7 +1,10 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 import "./Footer.css";
 import logo from "../../images/Navbar/logoranv.png";
-
+import FacebookIcon from "@mui/icons-material/Facebook";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 const Footer = () => {
   return (
     <>
@@ -18,6 +21,17 @@ const Footer = () => {
                     alt=""
                     className="rounded-3 my-auto img-displaced"
                   />
+                  <div className="pt-4 d-flex justify-content-center gap-4">
+                    <a href="https://www.facebook.com/Abdul.Kader.Akash.505">
+                      <FacebookIcon className="text-light fs-2" />
+                    </a>
+                    <a href="https://www.facebook.com/Abdul.Kader.Akash.505">
+                      <InstagramIcon className="text-light fs-2" />
+                    </a>
+                    <a href="https://www.facebook.com/Abdul.Kader.Akash.505">
+                      <WhatsAppIcon className="text-light fs-2" />
+                    </a>
+                  </div>
                 </div>
 
                 <div class="col-lg-2 col-md-6 mb-4 mb-md-0 text-center">

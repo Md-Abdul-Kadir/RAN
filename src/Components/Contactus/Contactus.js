@@ -7,14 +7,17 @@ import locicon from "../../images/icons/location-pin.png";
 import callicon from "../../images/icons/phone-call.png";
 import mailicon from "../../images/icons/email.png";
 import GoogleMap from "../GoogleMap.js/GoogleMap";
+import PlaceIcon from "@mui/icons-material/Place";
+import PhoneInTalkIcon from "@mui/icons-material/PhoneInTalk";
+import EmailIcon from "@mui/icons-material/Email";
 
 export default function Contactus() {
   return (
     <div>
-      <div className="bg-banner text-center d-flex">
+      <div className="bg-banner2 text-center d-flex">
         <div className="my-auto mx-auto">
-          <h2 className="fs-1 fw-bold text-light">Contact Us</h2>
-          <p className="fs-6 text-light pt-0">Home / Contactus</p>
+          <h2 className="fs-1 fw-bold text-danger">Contact Us</h2>
+          <p className="fs-6  pt-0">Home / Contactus</p>
         </div>
       </div>
       <div className="container py-5">
@@ -82,12 +85,12 @@ export default function Contactus() {
               <input
                 type="submit"
                 value="SUBMIT"
-                className="border-0 bg-theme text-white px-5 py-3 my-4"
+                className="border-0 text-white px-5 py-3 my-4 bg-theme"
               />
             </form>
           </div>
           <div className="col-4">
-            <div className="bg-theme-dark shadow">
+            <div className="bg-theme shadow">
               <div className="d-flex py-4 justify-content-center align-self-center bb">
                 <h4 className="ps-3 text-light my-auto">
                   <TimerIcon /> OPENING HOURS
@@ -107,22 +110,17 @@ export default function Contactus() {
               </div>
               <div className="text-dark p-4">
                 <div className="d-flex py-1">
-                  <img
-                    src={locicon}
-                    alt=""
-                    height="28px"
-                    className="mx-3 my-2"
-                  />
+                  <PlaceIcon className="mx-3 my-2" />
                   <p className="ps-2 text-start">
                     Shahjalal University of Science and technology, Sylhet
                   </p>
                 </div>
                 <div className="d-flex py-2">
-                  <img src={callicon} alt="" height="25px" className="mx-3" />
+                  <PhoneInTalkIcon className="mx-3" />
                   <p className="ps-2">+88 01791-615539</p>
                 </div>
                 <div className="d-flex py-1">
-                  <img src={mailicon} alt="" height="25px" className="mx-3" />
+                  <EmailIcon className="mx-3" />
                   <p className="px-2">support.ran@gmail.com</p>
                 </div>
               </div>

@@ -6,10 +6,11 @@
   height: 300px;
 }
 .Herobanner2 {
-  background-image: url(../../images/herobgwhite.jpg);
+  /* background-image: linear-gradient(to right, #200122, #df2f36); */
+  height: 250px;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 300px;
 }
 
 .text-theme {
@@ -21,4 +22,16 @@
 
 .btn-themee {
   background-color: #df2f36;
+}
+.py-4p {
+  margin-top: 12% !important;
+  margin-bottom: 12% !important;
+}
+.bar h2:before {
+  content: "";
+  background: #e03036;
+  width: 60px;
+  height: 10px;
+  margin-bottom: 20px;
+  display: block;
 }

@@ -1,8 +1,8 @@
 import React from "react";
-import w1 from "../../images/wwa.png";
-import m1 from "../../images/mission.webp";
-import v1 from '../../images/vvv.webp'
-import PlayArrowIcon from '@mui/icons-material/PlayArrow';
+import w1 from "../../images/whoweare/community.jpg";
+import m1 from "../../images/whoweare/mission.jpg";
+import v1 from "../../images/whoweare/values.png";
+import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import "../Style/style.css";
 import DoubleArrowIcon from "@mui/icons-material/DoubleArrow";
 
@@ -23,8 +23,8 @@ export default function Whoweare() {
           <div className="w-50 p-5 mx-auto">
             <img src={w1} alt="" className="w-100 mx-auto" />
           </div>
-          <div className="w-50 p-5 my-auto">
-            <h3 className="fw-bold">The Research Alliance Network (RAN)</h3>
+          <div className="w-50 p-5 my-auto bar">
+            <h2 className="fw-bold">The Research Alliance Network (RAN)</h2>
             <p>
               RAN is a social enterprise aiming to develop human resources and
               undertake research to constructively and positively transform
@@ -35,7 +35,7 @@ export default function Whoweare() {
         </div>
 
         {/* mission */}
-        <div className="w-100 my-5 d-flex ">
+        <div className="w-100 d-flex py-4p ">
           <div className="w-50 p-5 my-auto">
             <h3 className="fw-bold">Mission</h3>
             <p>
@@ -94,36 +94,33 @@ export default function Whoweare() {
           </div>
         </div>
 
-
-
-        <div className="w-100 my-5 d-flex ">
+        <div className="w-100 my-5 d-flex py-4p">
           <div className="w-50 my-auto p-5">
             <img src={v1} alt="" className="w-100 mx-auto" />
           </div>
           <div className="w-50 p-5 my-auto">
             <h3 className="fw-bold">Values</h3>
             <div className="p-3">
-            <div>
-              <PlayArrowIcon className="me-2 text-theme" />
-              We are committed, dedicated, and passionate in our work.
-            </div>
-            <div>
-              <PlayArrowIcon className="me-2 text-theme" />
-              We are curious and creative.
-            </div>
-            <div>
-              <PlayArrowIcon className="me-2 text-theme" />
-              We work together collaboratively.
-            </div>
-            <div>
-              <PlayArrowIcon className="me-2 text-theme" />
-              We do what we preach.
-            </div>
-            <div>
-              <PlayArrowIcon className="me-2 text-theme" />
-              We are honest, transparent, polite and friendly.
-
-            </div>
+              <div>
+                <PlayArrowIcon className="me-2 text-theme" />
+                We are committed, dedicated, and passionate in our work.
+              </div>
+              <div>
+                <PlayArrowIcon className="me-2 text-theme" />
+                We are curious and creative.
+              </div>
+              <div>
+                <PlayArrowIcon className="me-2 text-theme" />
+                We work together collaboratively.
+              </div>
+              <div>
+                <PlayArrowIcon className="me-2 text-theme" />
+                We do what we preach.
+              </div>
+              <div>
+                <PlayArrowIcon className="me-2 text-theme" />
+                We are honest, transparent, polite and friendly.
+              </div>
             </div>
           </div>
         </div>

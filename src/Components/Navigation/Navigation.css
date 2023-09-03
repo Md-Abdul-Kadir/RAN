@@ -22,3 +22,49 @@
 .img-displaced {
   transform: scale(1.5) !important;
 }
+.text-hover:hover {
+  font-weight: 600;
+  border-bottom: #df2f36 solid 2px !important;
+}
+.text-hover {
+  border-bottom: #ffffff solid 2px !important;
+}
+.nav-drop {
+  background-color: #df2f36 !important;
+}
+.nav-drop:hover {
+  background-color: #c30006 !important;
+}
+.w-220px {
+  width: 220px;
+}
+.w-250px {
+  width: 270px;
+}
+.text-update {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  left: 125px;
+}
+.text-update p {
+  position: absolute;
+  margin: 0;
+  text-align: left;
+  transform: translateX(100%);
+  animation: moving 25s linear infinite;
+}
+.move {
+  transform: translateX(70%);
+  animation: moving 15s linear infinite;
+}
+
+@keyframes moving {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

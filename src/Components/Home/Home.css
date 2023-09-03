@@ -1,0 +1,23 @@
+.py-4p {
+  margin-top: 7% !important;
+  margin-bottom: 7% !important;
+}
+.bar h2:before {
+  content: "";
+  background: #e03036;
+  width: 60px;
+  height: 10px;
+  margin-bottom: 20px;
+  display: block;
+}
+h2 {
+  font-size: 40px !important;
+}
+h3 {
+  font-size: 35px !important;
+}
+.border-sevice {
+  border-top: #0000002e 0.2px solid !important;
+  border-right: #0000002e 0.2px solid !important;
+  border-bottom: #0000002e 0.2px solid !important;
+}
